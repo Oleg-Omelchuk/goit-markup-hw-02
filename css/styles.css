@@ -71,7 +71,6 @@ header {
   letter-spacing: 0.03em;
   color: #000000;
 }
-.logo:hover,
 .logo:focus {
   color: var(--link-hover-color);
 }
@@ -195,7 +194,8 @@ header {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-link:hover,
-.footer-link:focus {
+.footer-link:focus,
+.link-adress:hover {
   color: var(--link-hover-color);
 }
 /* ----------------portfolio.html--------------- */
@@ -218,6 +218,10 @@ header {
 .filter-btn:hover {
   background-color: var(--link-hover-color);
   color: var(--bgc-main-color);
+}
+.work-link:hover,
+.work-link:focus {
+  color: var(--link-hover-color);
 }
 .work-pre-title {
   font-family: 'Roboto';
