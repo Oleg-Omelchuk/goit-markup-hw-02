@@ -183,6 +183,7 @@ header {
   text-decoration: none;
 }
 .footer-list a {
+  text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
   font-size: 14px;
@@ -191,7 +192,6 @@ header {
   color: var(--text-color-white);
 }
 .footer-list .footer-link {
-  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-link:hover,
