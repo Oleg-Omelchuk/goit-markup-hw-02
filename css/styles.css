@@ -27,11 +27,18 @@
   --text-color-white: #ffffff;
 }
 /* ------------------------Общие селекторы - Утилиты */
+html{
+  box-sizing: border-box;
+}
+*,*::before,*::after {
+  box-sizing: inherit;
+}
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   font-weight: 400;
   background-color: var(--bgc-main-color);
   color: var(--main-text-color);
+  margin: 0;
 }
 .link {
   text-decoration: none;
@@ -111,6 +118,7 @@ header {
   color: var(--text-color-white);
 }
 .hero-btn {
+  display: inline-block;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -118,6 +126,11 @@ header {
   background-color: #2196f3;
   color: var(--text-color-white);
   cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  text-align: center;
+  border: 1px solid transparent;
 }
 /*---------------------- Секция "Чем мы занимаемся?*/
 .about {
